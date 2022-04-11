@@ -36,3 +36,28 @@ btnProsegui.addEventListener('click', function(){
 
 //--------------------------------------------------
 
+/*
+1. Generare numero casuale da 1 a 6 per utente e pc
+2. Decretare il vicitore
+*/
+
+const facceDado = 6;
+const dadiUtente =document.getElementById('tira');
+
+
+
+dadiUtente.addEventListener('click', function(){
+
+  let random = Math.floor(Math.random() * (facceDado - 1)) + 1;
+
+  
+  let randomPc = Math.floor(Math.random() * (facceDado - 1)) + 1;
+
+  if(random > randomPc){
+    alert("Complimentoni hai vinto");
+  }else if(random === randomPc){
+    alert("pareggio")
+  }else{
+    alert("hai perso");
+  }
+})  
