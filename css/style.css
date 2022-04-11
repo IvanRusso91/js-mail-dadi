@@ -1,0 +1,21 @@
+body{
+  background-color: rgb(10, 104, 10);
+}
+
+.box-email{
+  background-color: black;
+  padding: 10px;
+}
+
+.box{
+  height: calc(100vh - 50px);
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#btn{
+  border-radius:10px;
+  background-color: rgb(43, 43, 219);
+  color: white;
+}
